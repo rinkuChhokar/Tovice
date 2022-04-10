@@ -1,6 +1,6 @@
 from flask import Flask,render_template
 
-app = Flask(__name__,template_folder='templates',static_folder='D://PROJECTS/python projects/Tovice Website/website/static')
+app = Flask(__name__,template_folder='templates',static_folder='static')
 app.secret_key = 'tovice'
 
 @app.route("/")
