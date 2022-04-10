@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Tovice</title>
+
+    <style>
+     h2{
+        color:#fff;
+
+        font-family:Helvetica;
+      }
+
+
+      #footer{
+        background-color:#0b0c10 ;
+        
+      }
+
+      #navbar{
+        background-color:#0b0c10;
+        
+      }
+
+      body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+
+    footer{
+        margin-top: auto;
+        margin-top: -10px;
+
+    }
+
+    #first{
+      background-image: url("https://images.unsplash.com/photo-1632220894022-a83eacddae2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+
+      background-attachment: fixed;
+
+
+    }
+
+
+    #feat{
+
+      padding-top: 80px;
+      margin-top: 80px;
+      margin-left: 100px;
+      margin-right: 100px;
+      padding-bottom: 500px;
+
+    }
+
+    h5{
+      font-size: 20px;
+      color: white;
+    }
+
+
+
+
+    </style>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+
+    
+      <div id= "navbar" class="container-fluid p-1 shadow mb-5 position-fixed">
+        <h2 id="h2" class="d-flex justify-content-center">Tovice</h2>
+      </div>
+
+      <div class="container-fluid pt-5" id="first">
+
+
+
+      <div class="container" style="padding-top: 100px;">
+        <div class="row">
+          <div class="col-md-4">
+            
+          </div>
+          <div class="col-md-4"><h2 style="margin-left: 60px;color: #66FCF1;text-decoration-line: underline;">About Project</h2></div>
+          <div class="col-md-4"></div>
+          
+        </div>
+      </div>
+    
+        <div class="container pt-5" style="padding-bottom: 300px;">
+
+        <div class="row" style="border-color: lightgrey;border-style: solid;border-width: 0.1px;border-radius: 20px;">
+
+          <div class="col-md-4" style="border-right: solid white 1px;" >
+            <h5 style="color:#00bcd9">
+                Project Name
+             </h5>
+          </div>
+
+          
+          <div class="col-md-8">
+
+            <h5>
+              Tovice
+            </h5>
+            
+        </div></div>
+
+
+
+        <div class="row mt-5" style="border-color: lightgrey;border-style: solid;border-width: 0.1px;border-radius: 20px;">
+
+          <div class="col-md-4" style="border-right: solid white 1px;" >
+            <h5 style="color:#00bcd9">
+                Developed By
+             </h5>
+          </div>
+
+          
+          <div class="col-md-8">
+
+            <h5>
+              Rinku [CSE 3rd Year(2820902)]
+
+            </h5>
+            
+        </div></div>
+
+
+
+        <div class="row mt-5" style="border-color: lightgrey;border-style: solid;border-width: 0.1px;border-radius: 20px;">
+
+          <div class="col-md-4" style="border-right: solid white 1px;" >
+            <h5 style="color:#00bcd9">
+                Language Used
+             </h5>
+          </div>
+
+          
+          <div class="col-md-8">
+
+            <h5>
+              Python
+            </h5>
+            
+        </div></div>
+
+
+
+        <div class="row mt-5" style="border-color: lightgrey;border-style: solid;border-width: 0.1px;border-radius: 20px;">
+
+          <div class="col-md-4" style="border-right: solid white 1px;" >
+            <h5 style="color:#00bcd9">
+                Project Type
+             </h5>
+          </div>
+
+          
+          <div class="col-md-8">
+
+            <h5>
+              GUI (Graphical User Interface) & Command Line Based
+
+            </h5>
+            
+        </div></div>
+
+
+
+        <div class="row mt-5" style="border-color: lightgrey;border-style: solid;border-width: 0.1px;border-radius: 20px;">
+
+          <div class="col-md-4" style="border-right: solid white 1px;" >
+            <h5 style="color:#00bcd9">
+                Project Summary
+             </h5>
+          </div>
+
+          
+          <div class="col-md-8">
+
+            <h5>
+              “Tovice” is a desktop based application designed for the translation of voice from one language to another language. It is a command line based application which is executed with the help of command prompt or cmd and can be run on any other power shell or terminal in any text editor or IDE. There are mainly two modes provided by the system- Voice Mode and Manual Mode for voice translation. 
+In the voice mode the application first ask the user to speak and automatically recognize the language and then ask in which language we want to translate it. All the process is speech recognition based here. The translated text is shown as output and we have also an option to save the translated text in a document file. The Tovice supports more than 100 different languages for translation.
+
+            </h5>
+            
+        </div></div>
+
+
+      </div>
+        
+      </div>
+          
+      
+
+
+
+
+    
+
+
+    
+
+    {% include "base.html" %}
+    {% block footer %}
+    {% endblock %}
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+    
+  </body>
+</html>

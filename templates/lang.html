@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Tovice</title>
+
+    <style>
+     h2{
+        color:#fff;
+
+        font-family:Helvetica;
+      }
+
+
+      #footer{
+        background-color:#0b0c10 ;
+        
+      }
+
+      #navbar{
+        background-color:#0b0c10;
+        
+      }
+
+      body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+
+    footer{
+        margin-top: auto;
+        margin-top: -10px;
+
+    }
+
+    #first{
+      background-image: url("https://images.unsplash.com/photo-1632220894022-a83eacddae2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+
+      background-attachment: fixed;
+
+
+    }
+
+
+    #feat{
+
+      padding-top: 80px;
+      margin-top: 80px;
+      margin-left: 100px;
+      margin-right: 100px;
+      padding-bottom: 500px;
+
+    }
+
+    h5{
+      font-size: 20px;
+      color: white;
+    }
+
+
+
+
+    </style>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+
+    
+      <div id= "navbar" class="container-fluid p-1 shadow mb-5 position-fixed">
+        <h2 id="h2" class="d-flex justify-content-center">Tovice</h2>
+      </div>
+
+      <div class="container-fluid pt-5" id="first">
+
+
+
+      <div class="container d-flex justify-content-center" style="padding-top: 100px;">
+        <h2 style="margin-left: 60px;color: #66FCF1;text-decoration-line: underline;">Supported Languages</h2>
+      </div>
+    
+        <div class="container pt-5 " style="padding-bottom: 300px;">
+
+              <div class="d-flex justify-content-center">
+      
+              <img style="border-radius: 30px;" id="img" src="https://www.bookmyessay.com/wp-content/uploads/2019/01/Afrikaans.png"height="150px" width="400px">
+            </div>
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="https://i1.wp.com/www.arabamerica.com/wp-content/uploads/2019/12/63652739575886387531.jpg?resize=827%2C375&ssl=1"height="150px" width="400px">
+
+            </div>
+
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='bengali.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='Chinese.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='Dutch.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='English.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='German.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='French.png')}}" height="150px" width="400px">
+
+            </div>
+
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='Hindi.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='Japanese.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='Korean.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='Malayalam.png')}}" height="150px" width="400px">
+
+            </div>
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='Russian.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='Spanish.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='Swedish.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+            <div class="d-flex justify-content-center">
+            <img class="mt-5" style="border-radius: 30px;" id="img" src="{{url_for('static', filename='Tamil.jpg')}}" height="150px" width="400px">
+
+            </div>
+
+
+            <h5 class=" mt-5 d-flex justify-content-center">And many more......</h5>
+
+
+
+      </div>
+        
+      </div>
+          
+      
+
+
+
+
+    
+
+
+    
+
+    {% include "base.html" %}
+    {% block footer %}
+    {% endblock %}
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+    
+  </body>
+</html>
